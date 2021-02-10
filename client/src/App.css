@@ -7,7 +7,7 @@
   --primary-dark: rgba(255, 255, 255, 0);
   --primary-blue: rgba(19, 136, 232);
   --primary-green: rgb(21,99,7);
-  --primary-hover-green: rgb(13,77,28);
+  --primary-hover-green: rgb(66,97,22);
 }
 
 body {
@@ -45,6 +45,12 @@ nav ul li {
   max-width: 17.25rem;
   padding: 0 !important;
   height: 6rem !important;
+}
+
+@media(max-width: 768px) {
+  .navbar-brand {
+    width: 7rem;
+  }
 }
 
 .navbar-nav > li > a.active,
@@ -87,12 +93,27 @@ nav ul li {
   text-transform: uppercase;
 }
 
+@media(max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.5rem !important;
+  }
+}
+
 /* -------- Typed Text -------- */
 
 .typed-text {
   font-size: 2rem;
   /* might use this later  */
   /* color: var(--primary-white); */
+}
+
+@media(max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.7rem !important;
+  }
+  .typed-text {
+    font-size: 1.3rem !important;
+  }
 }
 
 /* -------- Main Offer Button -------- */
@@ -105,10 +126,23 @@ nav ul li {
   margin: 2rem;
 }
 
+.btn-main-offer:hover {
+  text-decoration: none;
+  background-color: var(--primary-hover-green);
+  color: var(--primary-hover-green);
+  color: var(--primary-white);
+}
+
 /* -------- Particles Js -------- */
 .tsparticles-canvas-el {
   position: absolute;
   height: 100vh;
   width: 100vw;
   z-index: 1;
+}
+
+@media(max-width: 768px) {
+  .particles-canvas {
+    display: none;
+  }
 }
