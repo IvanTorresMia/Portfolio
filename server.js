@@ -21,7 +21,7 @@ if(process.env.NODE_ENV === "production") {
     app.use(express.static("client/build"));
 };
 
-app.use(routes);
+// app.use(routes);
 
 // syncing database with sequlice and listening to our port.
 db.sequelize.sync({ force: true }).then(function() {
