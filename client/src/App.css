@@ -146,3 +146,38 @@ nav ul li {
     display: none;
   }
 }
+
+/* ******************* About Me ******************* */
+
+.profile-picture {
+  width: 30rem;
+}
+
+@media(max-width: 768px) {
+  .profile-picture {
+    width: 20rem;
+  }
+}
+
+@media(max-width: 992px) {
+  .profile-picture {
+    width: 20rem;
+  }
+}
+
+@media(max-width: 768px) {
+  .profile-picture {
+    width: 25rem;
+  }
+}
+
+@media(max-width: 400px) {
+  .profile-picture {
+    width: 10rem;
+  }
+}
+
+.about-me {
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+}
