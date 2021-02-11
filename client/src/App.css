@@ -161,19 +161,25 @@ nav ul li {
 
 @media(max-width: 992px) {
   .profile-picture {
-    width: 20rem;
+    width: 40rem;
   }
 }
 
 @media(max-width: 768px) {
   .profile-picture {
+    width: 30rem;
+  }
+}
+
+@media(max-width: 525px) {
+  .profile-picture {
     width: 25rem;
   }
 }
 
-@media(max-width: 400px) {
+@media(max-width: 499px) {
   .profile-picture {
-    width: 10rem;
+    width: 15rem;
   }
 }
 
@@ -181,3 +187,13 @@ nav ul li {
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
 }
+
+/* -------- Font -------- */
+
+@media(max-width: 768px) {
+  .about-me-text {
+    font-size: 0.85rem !important;
+  }
+}
+
+/* ******************* Skills ******************* */
