@@ -1,31 +1,14 @@
-export const skills = {
-    skills1: 
-    ["HTML",
-    "CSS",
-    "ES6",
-    "JavaScript",
-    "React Js",
-    "jQuery"
-],
-skills2: [
-    "mySql",
-    "Sequelize",
-    "Mongo DB",
-    "Axios",
-    "Ajax",
-    "Node Js"
-],
-otherSkills: [
+ const AllSkills = [{
+  skills1: ["HTML", "CSS", "ES6", "JavaScript", "React Js", "jQuery"],
+  skills2: ["mySql", "Sequelize", "Mongo DB", "Axios", "Ajax", "Node Js"],
+  otherSkills: [
     "Auto Mechanics",
     "Computer Repair",
     "Sales Associate",
     "Leadership",
     "Musician",
-    "Creative"
-]
+    "Creative",
+  ],
+}];
 
-
-}
-
-
-
+export default AllSkills;
