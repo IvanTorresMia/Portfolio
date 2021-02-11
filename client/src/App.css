@@ -8,6 +8,7 @@
   --primary-blue: rgba(19, 136, 232);
   --primary-green: rgb(21,99,7);
   --primary-hover-green: rgb(66,97,22);
+  --primary-black: rgb(54,54,54);
 }
 
 body {
@@ -186,6 +187,7 @@ nav ul li {
 .about-me {
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: auto !important;
 }
 
 /* -------- Font -------- */
@@ -197,3 +199,19 @@ nav ul li {
 }
 
 /* ******************* Skills ******************* */
+.skills-container {
+  margin-top: 7rem;
+}
+
+.skills-wraper {
+  background-color: var(--primary-black) !important;
+  /* position: relative; */
+}
+
+.skill-item1 {
+ background-color: var(--primary-blue);
+ width: 7rem;
+ padding: 0.6rem;
+ text-align: center;
+ box-shadow: 0.125rem 0.125rem 0.2rem solid black;
+}
