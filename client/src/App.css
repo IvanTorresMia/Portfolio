@@ -200,12 +200,12 @@ nav ul li {
 
 /* ******************* Skills ******************* */
 .skills-container {
-  margin-top: 7rem;
+  margin-top: 4rem;
 }
 
 .skills-wraper {
   background-color: var(--primary-black) !important;
-  /* position: relative; */
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .skill-item1 {
@@ -214,4 +214,18 @@ nav ul li {
  padding: 0.6rem;
  text-align: center;
  box-shadow: 0.125rem 0.125rem 0.2rem solid black;
+}
+
+/* -------- Material Ui Items -------- */
+
+.list-item {
+  /* background-color: var(--primary-blue); */
+  margin: 2rem;
+  color: var(--primary-white);
+}
+
+.list-title {
+  text-align: center;
+  font-size: 3rem !important;
+  color: var(--primary-white);
 }
