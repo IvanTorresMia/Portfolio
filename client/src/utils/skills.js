@@ -1,103 +1,58 @@
-const AllSkills = [
+import JavaScript from "../skillLogos/js.png"
+import DataBase from "../skillLogos/database.png"
+import APILogo from "../skillLogos/api.png"
+import HTMLCSSLogo from "../skillLogos/html-css.png"
+import Coding from "../skillLogos/coding.png"
+import otherSkills from "../skillLogos/tool.png"
+
+const MySkills = [
   {
     skills1: [
       {
-        Lenguage: "HTML",
-        img: "#",
-        alt: "HTML logo"
-      },
-      {
-        Lenguage: "CSS",
-        img: "",
-        alt: "HTML logo"
-      },
-      {
         Lenguage: "JavaScript",
-        img: "#",
-        alt: "HTML logo"
+        img: JavaScript,
+        alt: "javascript",
+        text: "React Js, jQuery, ES6"
       },
       {
-        Lenguage: "React Js",
-        img: "#",
-        alt: "HTML logo"
+        Lenguage: "CSS/HTML",
+        img: HTMLCSSLogo,
+        alt: "html css",
+        text: "HTML5, CSS3, Bootstrap"
       },
       {
-        Lenguage: "jQuery",
-        img: "#",
-        alt: "HTML logo"
-      },
-      {
-        Lenguage: "Git",
-        img: "#",
-        alt: "HTML logo"
+        Lenguage: "DataBases",
+        img: DataBase,
+        alt: "database",
+        text: "MongoDB, mySql"
       }
     ],
   },
   {
     skills2: [
       {
-        Lenguage: "",
-        img: "#",
-        alt: "HTML logo"
+        Lenguage: "API",
+        img: APILogo,
+        alt: "API",
+        text: "Axios, Ajax, Web Api's"
       },
       {
-        Lenguage: "",
-        img: "#",
-        alt: "HTML logo"
+        Lenguage: "Other Libraries",
+        img: Coding,
+        alt: "Other Libraries",
+        text: "Node Js, Express, Git and more"
       },
       {
-        Lenguage: "",
-        img: "#",
-        alt: "HTML logo"
-      },
-      {
-        Lenguage: "",
-        img: "#",
-        alt: "HTML logo"
-      },
-      {
-        Lenguage: "",
-        img: "#",
-        alt: "HTML logo"
-      },
-      {
-        Lenguage: "",
-        img: "#",
-        alt: "HTML logo"
+        Lenguage: "Other Skills",
+        img: otherSkills,
+        alt: "Other Skills",
+        text: "Auto Mechanic, Computer Repair, Costumer Service, Musician"
       }
     ],
-  },
-  {
-    otherSkills: [
-      {
-        Lenguage: "",
-        img: "#",
-      },
-      {
-        Lenguage: "",
-        img: "#",
-      },
-      {
-        Lenguage: "",
-        img: "#",
-      },
-      {
-        Lenguage: "",
-        img: "#",
-      },
-      {
-        Lenguage: "",
-        img: "#",
-      },
-      {
-        Lenguage: "",
-        img: "#",
-      }
-    ],
-  },
+  }
 ];
 
-export default AllSkills;
+export default MySkills;
 
 // skills1: ["HTML", "CSS", "ES6", "JavaScript", "React Js", "jQuery"],
 // skills2: ["mySql", "Sequelize", "Mongo DB", "Axios", "Ajax", "Node Js"],
