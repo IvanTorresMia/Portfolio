@@ -104,8 +104,6 @@ nav ul li {
 
 .typed-text {
   font-size: 2rem;
-  /* might use this later  */
-  /* color: var(--primary-white); */
 }
 
 @media(max-width: 768px) {
@@ -199,33 +197,23 @@ nav ul li {
 }
 
 /* ******************* Skills ******************* */
-.skills-container {
-  margin-top: 4rem;
-}
 
 .skills-wraper {
-  background-color: var(--primary-black) !important;
-  font-family: "Roboto Condensed", sans-serif;
-}
-
-.skill-item1 {
- background-color: var(--primary-blue);
- width: 7rem;
- padding: 0.6rem;
- text-align: center;
- box-shadow: 0.125rem 0.125rem 0.2rem solid black;
-}
-
-/* -------- Material Ui Items -------- */
-
-.list-item {
-  /* background-color: var(--primary-blue); */
-  margin: 2rem;
-  color: var(--primary-white);
-}
-
-.list-title {
   text-align: center;
-  font-size: 3rem !important;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: auto !important;
+  background-color: var(--primary-black);
   color: var(--primary-white);
 }
+
+.skills-title {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.card-style {
+  width: 15rem !important;
+  text-align: center !important;
+  align-items: center !important;
+}
+
