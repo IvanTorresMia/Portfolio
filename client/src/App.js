@@ -2,6 +2,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from "react-particles-js";
 import Navbar from "./Components/Navbar";
+import FakeNav from "./Components/FakeNav";
 import Header from "./Components/Header";
 import AboutMe from "./Components/AboutMe"
 import Skills from "./Components/Skills"
@@ -30,6 +31,7 @@ function App() {
         }
       }}
       />
+      <FakeNav />
       <Navbar />
       <Header />
       <AboutMe />

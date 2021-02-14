@@ -4,9 +4,9 @@ import myLogo from "../../myLogo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-const Navbar = () => { 
+const FakeNav = () => { 
   return (
-    <nav className="navbar navbar-style navbar-expand-lg navbar-light bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
       <div className="container">
         <a className="navbar-brand" href="#">
           <img className="myLogo" src={myLogo} alt="Ivan's Logo" />
@@ -63,4 +63,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default FakeNav;
