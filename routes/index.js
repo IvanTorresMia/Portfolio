@@ -9,4 +9,4 @@ router.get("/api/Experience", (req, res) => {
     }).catch(err => res.status(422).json(err))
 });
 
-modeule.exports = router;
+module.exports = router;
