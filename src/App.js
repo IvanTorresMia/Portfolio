@@ -6,6 +6,7 @@ import FakeNav from "./Components/FakeNav";
 import Header from "./Components/Header";
 import AboutMe from "./Components/AboutMe"
 import Skills from "./Components/Skills"
+import Timeline from './Components/Experience/Timeline'
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
       <Header />
       <AboutMe />
       <Skills />
+      <Timeline />
     </>
   );
 }
