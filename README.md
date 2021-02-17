@@ -28,7 +28,7 @@ Hi welcome to my portfolio, This is currently being built and will be deployed a
 
 
 ## Gif
-- Decided to put gif of how to project is going. I will update the gif when the portfolio is finished.
+- Decided to put a gif of how the project is going. I will update the gif when the portfolio is finished.
 ![Gif](./Portfolio1.gif)
 
 ## Code
