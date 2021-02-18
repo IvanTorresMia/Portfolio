@@ -321,3 +321,8 @@ nav ul li {
   right: auto;
   left:  -2.2rem;
 }
+
+.timeline-item-content h4 {
+  color: var(--primary-blue);
+  font-size: 2rem;
+}
