@@ -327,6 +327,13 @@ nav ul li {
   font-size: 2rem;
 }
 
+.timeline-item-content h3 {
+  color: rgb(124, 124, 124);
+}
+
+
+
+
 .timeline-item-content .timeline-item-image {
   position: absolute;
   top: -0.25rem;
