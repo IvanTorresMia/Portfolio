@@ -326,3 +326,14 @@ nav ul li {
   color: var(--primary-blue);
   font-size: 2rem;
 }
+
+.timeline-item-content .timeline-item-image {
+  position: absolute;
+  top: -0.25rem;
+  left: 0.3125rem;
+}
+
+.timeline-item:nth-child(odd) .timeline-item-content .timeline-item-image {
+  left: auto;
+  right: 0.3125rem;
+}
