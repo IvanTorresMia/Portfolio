@@ -279,7 +279,7 @@ nav ul li {
   padding: 0.5rem;
   text-align: right;
   position: relative;
-  border: 0.3rem solid rgb(52,59,64);
+  /* border: 0.3rem solid rgb(52,59,64); */
 }
 
 .timeline-item-content::after {
@@ -312,14 +312,14 @@ nav ul li {
   border-radius: 50%;
   position: absolute;
   top: calc(50% - 0.625rem);
-  right: -2.2rem;
+  right: -1.9rem;
   width: 1.25rem;
   height: 1.25rem;
 }
 
 .timeline-item:nth-child(odd) .timeline-item-content .circle {
   right: auto;
-  left:  -2.2rem;
+  left: -1.9rem;
 }
 
 .timeline-item-content h4 {
@@ -330,9 +330,6 @@ nav ul li {
 .timeline-item-content h3 {
   color: rgb(124, 124, 124);
 }
-
-
-
 
 .timeline-item-content .timeline-item-image {
   position: absolute;
@@ -350,9 +347,57 @@ nav ul li {
   .timeline-item:nth-child(odd) .timeline-item-content {
     padding: 15px 10px;
     text-align: center;
-    align-items: center ;
+    align-items: center;
   }
 
+  .timeline-item-content .timeline-item-image {
+    top: -0.25rem;
+    left: 7.5rem;
+  }
+  .timeline-item:nth-child(odd) .timeline-item-content .timeline-item-image {
+    left: auto;
+    right: 7.5rem;
+  }
+
+  .timeline-item-content h3 {
+    margin-top: 35px;
+  }
+}
+
+@media only screen and (max-width: 676px) {
+  .timeline-item-content .timeline-item-image {
+    top: -0.25rem;
+    left: 7rem;
+  }
+  .timeline-item:nth-child(odd) .timeline-item-content .timeline-item-image {
+    left: auto;
+    right: 7rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .timeline-item-content .timeline-item-image {
+    top: -0.25rem;
+    left: 6.5rem;
+  }
+  .timeline-item:nth-child(odd) .timeline-item-content .timeline-item-image {
+    left: auto;
+    right: 6.5rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .timeline-item-content .timeline-item-image {
+    top: -0.25rem;
+    left: 4.4rem;
+  }
+  .timeline-item:nth-child(odd) .timeline-item-content .timeline-item-image {
+    left: auto;
+    right: 4.4rem;
+  }
+}
+
+@media only screen and (max-width: 499px) {
   .timeline-item-content .timeline-item-image {
     top: -0.25rem;
     left: 2.5rem;
@@ -361,8 +406,10 @@ nav ul li {
     left: auto;
     right: 2.5rem;
   }
+}
 
-  .timeline-item-content h3 {
-    margin-top: 35px;
+@media only screen and (max-width: 320px) {
+  .timeline-item {
+    width: 53%;
   }
 }
