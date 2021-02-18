@@ -6,9 +6,9 @@
   --primary-orange: #f9ab00;
   --primary-dark: rgba(255, 255, 255, 0);
   --primary-blue: rgba(19, 136, 232);
-  --primary-green: rgb(21,99,7);
-  --primary-hover-green: rgb(66,97,22);
-  --primary-black: rgb(54,54,54);
+  --primary-green: rgb(21, 99, 7);
+  --primary-hover-green: rgb(66, 97, 22);
+  --primary-black: rgb(54, 54, 54);
 }
 
 body {
@@ -21,13 +21,11 @@ nav {
 }
 
 .navbar-style {
-
-left: 0;
-right: 0; 
-position: fixed !important;
-padding: 2em;
-top: 0%;
-
+  left: 0;
+  right: 0;
+  position: fixed !important;
+  padding: 2em;
+  top: 0%;
 }
 
 .myLogo {
@@ -58,7 +56,7 @@ nav ul li {
   height: 6rem !important;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .navbar-brand {
     width: 7rem;
   }
@@ -104,7 +102,7 @@ nav ul li {
   text-transform: uppercase;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .main-info h1 {
     font-size: 1.5rem !important;
   }
@@ -116,7 +114,7 @@ nav ul li {
   font-size: 2rem;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .main-info h1 {
     font-size: 1.7rem !important;
   }
@@ -130,7 +128,7 @@ nav ul li {
   border: 1px solid var(--primary-green);
   text-transform: uppercase;
   border-radius: 0;
-  padding: 0.625rem 0.75rem  0.75rem  0.75rem;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: black;
   margin: 2rem;
 }
@@ -150,7 +148,7 @@ nav ul li {
   z-index: 1;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .particles-canvas {
     display: none;
   }
@@ -162,31 +160,31 @@ nav ul li {
   width: 30rem;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .profile-picture {
     width: 20rem;
   }
 }
 
-@media(max-width: 992px) {
+@media (max-width: 992px) {
   .profile-picture {
     width: 40rem;
   }
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .profile-picture {
     width: 30rem;
   }
 }
 
-@media(max-width: 525px) {
+@media (max-width: 525px) {
   .profile-picture {
     width: 25rem;
   }
 }
 
-@media(max-width: 499px) {
+@media (max-width: 499px) {
   .profile-picture {
     width: 15rem;
   }
@@ -200,7 +198,7 @@ nav ul li {
 
 /* -------- Font -------- */
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .about-me-text {
     font-size: 0.85rem !important;
   }
@@ -227,7 +225,6 @@ nav ul li {
   align-items: center !important;
 }
 
-
 /* ******************* Experience ******************* */
 
 .timeline-wraper {
@@ -235,7 +232,7 @@ nav ul li {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
+  /* width: 100%; */
   font-family: "Roboto Condensed", sans-serif;
   min-height: 100vh;
   padding-top: 4rem;
@@ -244,8 +241,66 @@ nav ul li {
 .timeline-container {
   display: flex;
   flex-direction: column;
-  margin: 40px 0;
+  position: relative;
+  margin: 2.5rem 0;
 }
 
+.timeline-container::after {
+  background-color: var(--primary-blue);
+  content: "";
+  position: absolute;
+  left: calc(50% - 0.125rem);
+  width: 0.25rem;
+  height: 100%;
+}
 
+.timeline-item {
+  background-color: var(--primary-white);
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1.875rem;
+  margin: 0.625rem;
+  width: 50%;
+}
 
+.timeline-item:nth-child(odd) {
+  align-self: flex-end;
+  justify-content: flex-start;
+  padding-right: 0rem;
+  padding-left: 1.875rem;
+}
+
+.timeline-item-content {
+  background-color: var(--primary-blue);
+  border-radius: 0.3125rem;
+  box-shadow: 0 0 0.3125rem rgb(54, 54, 54);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0.5rem;
+  text-align: right;
+  position: relative;
+}
+
+.timeline-item-content::after {
+  content: "";
+  background-color: var(--primary-blue);
+  box-shadow: 0.0625rem -0.0625rem 0.0625rem rgb(54, 54, 54);
+  position: absolute;
+  transform: rotate(45deg);
+  right: -0.46875rem;
+  top: calc(50% - 0.46875rem);
+  width: 0.9375rem;
+  height: 0.9375rem;
+}
+
+.timeline-item:nth-child(odd) .timeline-item-content {
+  text-align: left;
+  align-items: flex-start;
+}
+
+.timeline-item:nth-child(odd) .timeline-item-content::after {
+  right: auto;
+  box-shadow: -0.0625rem 0.0625rem 0.0625rem rgb(54, 54, 54);
+  left: -0.46875rem;
+}
