@@ -320,14 +320,14 @@ nav ul li {
   border-radius: 50%;
   position: absolute;
   top: calc(50% - 0.625rem);
-  right: -2.3rem;
+  right: -2.4rem;
   width: 1.25rem;
   height: 1.25rem;
 }
 
 .timeline-item:nth-child(odd) .timeline-item-content .circle {
   right: auto;
-  left: -2.3rem;
+  left: -2.4rem;
 }
 
 .timeline-item-content h4 {
