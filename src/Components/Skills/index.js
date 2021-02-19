@@ -1,6 +1,5 @@
 import React from "react";
 import MySkills from "../../utils/skills";
-// import skills from "../../skillLogos/tool.png";
 
 const Skills = () => {
   console.log(MySkills[0].skills1);

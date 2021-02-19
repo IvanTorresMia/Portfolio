@@ -9,6 +9,7 @@
   --primary-green: rgb(21, 99, 7);
   --primary-hover-green: rgb(66, 97, 22);
   --primary-black: rgb(54, 54, 54);
+  --secondary-black: rgb(76,76,76);
 }
 
 body {
@@ -191,6 +192,8 @@ nav ul li {
 }
 
 .about-me {
+  color: var(--primary-white);
+  background-color: var(--secondary-black) !important;
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
   margin-bottom: auto !important;
@@ -228,6 +231,7 @@ nav ul li {
 /* ******************* Experience ******************* */
 
 .timeline-wraper {
+  background-color: var(--secondary-black);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -235,6 +239,10 @@ nav ul li {
   font-family: "Roboto Condensed", sans-serif;
   min-height: 100vh;
   padding-top: 4rem;
+}
+
+.timeline-wraper h1 {
+  color: var(--primary-white);
 }
 
 .timeline-container {
@@ -254,7 +262,7 @@ nav ul li {
 }
 
 .timeline-item {
-  background-color: var(--primary-white);
+  background-color: var(--secondary-black);
   display: flex;
   justify-content: flex-end;
   padding-right: 1.875rem;
@@ -276,10 +284,10 @@ nav ul li {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  padding: 0.5rem;
+  padding: 1.2rem;
   text-align: right;
   position: relative;
-  /* border: 0.3rem solid rgb(52,59,64); */
+  border: 0.5rem solid rgb(52,59,64);
 }
 
 .timeline-item-content::after {
@@ -312,18 +320,19 @@ nav ul li {
   border-radius: 50%;
   position: absolute;
   top: calc(50% - 0.625rem);
-  right: -1.9rem;
+  right: -2.3rem;
   width: 1.25rem;
   height: 1.25rem;
 }
 
 .timeline-item:nth-child(odd) .timeline-item-content .circle {
   right: auto;
-  left: -1.9rem;
+  left: -2.3rem;
 }
 
 .timeline-item-content h4 {
   color: var(--primary-blue);
+  /* it's here */
   font-size: 2rem;
 }
 
@@ -360,8 +369,17 @@ nav ul li {
   }
 
   .timeline-item-content h3 {
-    margin-top: 35px;
+    margin-top: 2.1875rem;
+    font-size: 1.4rem;
   }
+
+  .timeline-item-content h4 {
+    font-size: 1.2rem;
+  }
+  .timeline-item-content p {
+    font-size: 0.8rem;
+  }
+
 }
 
 @media only screen and (max-width: 676px) {
@@ -400,11 +418,20 @@ nav ul li {
 @media only screen and (max-width: 499px) {
   .timeline-item-content .timeline-item-image {
     top: -0.25rem;
-    left: 2.5rem;
+    left: 2.2rem;
   }
   .timeline-item:nth-child(odd) .timeline-item-content .timeline-item-image {
     left: auto;
-    right: 2.5rem;
+    right: 2.2rem;
+  }
+  .timeline-item-content .circle {
+    right: -2.4rem;
+    height: 1.25rem;
+  }
+  
+  .timeline-item:nth-child(odd) .timeline-item-content .circle {
+    right: auto;
+    left: -2.4rem;
   }
 }
 
@@ -412,4 +439,23 @@ nav ul li {
   .timeline-item {
     width: 53%;
   }
+  .timeline-item-content .timeline-item-image {
+    top: -0.25rem;
+    left: 1.6rem;
+  }
+  .timeline-item:nth-child(odd) .timeline-item-content .timeline-item-image {
+    left: auto;
+    right: 1.6rem;
+  }
+
+  .timeline-item-content .circle {
+    right: -1.8rem;
+    height: 1.25rem;
+  }
+  
+  .timeline-item:nth-child(odd) .timeline-item-content .circle {
+    right: auto;
+    left: -1.8rem;
+  }
+
 }
