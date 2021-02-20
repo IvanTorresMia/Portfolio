@@ -9,7 +9,7 @@
   --primary-green: rgb(21, 99, 7);
   --primary-hover-green: rgb(66, 97, 22);
   --primary-black: rgb(54, 54, 54);
-  --secondary-black: rgb(76,76,76);
+  --secondary-black: rgb(76, 76, 76);
 }
 
 body {
@@ -156,11 +156,19 @@ nav ul li {
 }
 
 /* ******************* About Me ******************* */
+.about-me {
+  color: var(--primary-white);
+  background-color: var(--secondary-black) !important;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: auto !important;
+}
 
 .profile-picture {
   width: 30rem;
 }
 
+/* For different mobile Responsiveness */
 @media (max-width: 768px) {
   .profile-picture {
     width: 20rem;
@@ -189,14 +197,6 @@ nav ul li {
   .profile-picture {
     width: 15rem;
   }
-}
-
-.about-me {
-  color: var(--primary-white);
-  background-color: var(--secondary-black) !important;
-  text-align: center;
-  font-family: "Roboto Condensed", sans-serif;
-  margin-bottom: auto !important;
 }
 
 /* -------- Font -------- */
@@ -241,10 +241,6 @@ nav ul li {
   padding-top: 4rem;
 }
 
-.timeline-wraper h1 {
-  color: var(--primary-white);
-}
-
 .timeline-container {
   display: flex;
   flex-direction: column;
@@ -287,7 +283,7 @@ nav ul li {
   padding: 1.2rem;
   text-align: right;
   position: relative;
-  border: 0.5rem solid rgb(52,59,64);
+  border: 0.5rem solid rgb(52, 59, 64);
 }
 
 .timeline-item-content::after {
@@ -313,6 +309,7 @@ nav ul li {
   left: -0.46875rem;
 }
 
+/* -------- Middle Circle -------- */
 .timeline-item-content .circle {
   content: "";
   background-color: var(--primary-blue);
@@ -330,9 +327,13 @@ nav ul li {
   left: -2.4rem;
 }
 
+/* -------- Specific font sizes in item -------- */
+.timeline-wraper h1 {
+  color: var(--primary-white);
+}
+
 .timeline-item-content h4 {
   color: var(--primary-blue);
-  /* it's here */
   font-size: 2rem;
 }
 
@@ -340,6 +341,7 @@ nav ul li {
   color: rgb(124, 124, 124);
 }
 
+/* -------- Image logo-------- */
 .timeline-item-content .timeline-item-image {
   position: absolute;
   top: -0.25rem;
@@ -351,6 +353,8 @@ nav ul li {
   right: 0.3125rem;
 }
 
+
+/* -------- Mobile Responsiveness -------- */
 @media only screen and (max-width: 767px) {
   .timeline-item-content,
   .timeline-item:nth-child(odd) .timeline-item-content {
@@ -379,7 +383,6 @@ nav ul li {
   .timeline-item-content p {
     font-size: 0.8rem;
   }
-
 }
 
 @media only screen and (max-width: 676px) {
@@ -428,13 +431,14 @@ nav ul li {
     right: -2.4rem;
     height: 1.25rem;
   }
-  
+
   .timeline-item:nth-child(odd) .timeline-item-content .circle {
     right: auto;
     left: -2.4rem;
   }
 }
 
+/* -------- Smaller Phones -------- */
 @media only screen and (max-width: 320px) {
   .timeline-item {
     width: 53%;
@@ -452,10 +456,9 @@ nav ul li {
     right: -1.8rem;
     height: 1.25rem;
   }
-  
+
   .timeline-item:nth-child(odd) .timeline-item-content .circle {
     right: auto;
     left: -1.8rem;
   }
-
 }
