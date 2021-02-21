@@ -1,12 +1,12 @@
 import Quiz from '../Project-pictures/Quiz.jpg';
-import Empoyee from '../Project-pictures/Emloyee.jpg';
+import Empoyee from '../Project-pictures/Employee.jpg';
 import Jeronivosh from '../Project-pictures/Jeronivosh.jpg';
 import Shrek from '../Project-pictures/Shrek.jpg';
 import Weather from '../Project-pictures/Weather.jpg';
 import Books from '../Project-pictures/Books.jpg';
 
 
-const Portfolio = [
+const Projects = [
   {
     name: "TimedQuiz",
     github: "https://github.com/IvanTorresMia/TimedQuiz-by-IvanTorres",
@@ -45,4 +45,4 @@ const Portfolio = [
   }
 ];
 
-export default Portfolio;
+export default Projects;

@@ -10,7 +10,7 @@ const Skills = () => {
   const skills2 = MySkills[1].skills2;
 
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 1000 });
   
   }, [])
 

@@ -483,7 +483,8 @@ nav ul li {
 
 .portfolio-wraper {
   font-family: "Roboto Condensed", sans-serif;
-  background-color: var(--secondary-black);
+  background-color: var(--primary-black);
+  color: var(--primary-white);
   text-align: center;
   min-height: 100vh;
   padding-top: 4rem;
