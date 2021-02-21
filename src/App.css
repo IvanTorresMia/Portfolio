@@ -10,6 +10,7 @@
   --primary-hover-green: rgb(66, 97, 22);
   --primary-black: rgb(54, 54, 54);
   --secondary-black: rgb(76, 76, 76);
+  --primary-gray: rgb(184, 184, 184);
 }
 
 body {
@@ -274,7 +275,7 @@ nav ul li {
 }
 
 .timeline-item-content {
-  background-color: rgb(184, 184, 184);
+  background-color: var(--primary-gray);
   border-radius: 0.3125rem;
   box-shadow: 0 0 0.3125rem rgb(54, 54, 54);
   display: flex;
@@ -287,7 +288,7 @@ nav ul li {
 
 .timeline-item-content::after {
   content: "";
-  background-color: rgb(184, 184, 184);
+  background-color: var(--primary-gray);
   box-shadow: 0.0625rem -0.0625rem 0.0625rem rgb(54, 54, 54);
   position: absolute;
   transform: rotate(45deg);
@@ -443,11 +444,11 @@ nav ul li {
   }
 
   .timeline-item-content::after {
-    box-shadow: 0.0625rem -0.0625rem 0.0625rem rgb(184, 184, 184);
+    box-shadow: 0.0625rem -0.0625rem 0.0625rem var(--primary-gray);
   }
 
   .timeline-item:nth-child(odd) .timeline-item-content::after {
-    box-shadow: 0.0625rem -0.0625rem 0.0625rem rgb(184, 184, 184);
+    box-shadow: 0.0625rem -0.0625rem 0.0625rem var(--primary-gray);
   }
 
   .timeline-item-content .timeline-item-image {
@@ -462,18 +463,28 @@ nav ul li {
   .timeline-item-content .circle {
     right: -1.3rem;
     height: 1.25rem;
-    background-color: rgb(184, 184, 184);
-    border: 0.1875rem solid rgb(184, 184, 184);
+    background-color: var(--primary-gray);
+    border: 0.1875rem solid var(--primary-gray);
   }
 
   .timeline-item:nth-child(odd) .timeline-item-content .circle {
     right: auto;
     left: -1.3rem;
-    background-color: rgb(184, 184, 184);
-    border: 0.1875rem solid rgb(184, 184, 184);
+    background-color: var(--primary-gray);
+    border: 0.1875rem solid var(--primary-gray);
   }
 
   .timeline-container::after {
-    background-color: rgb(184, 184, 184);
+    background-color: var(--primary-gray);
   }
+}
+
+/* ******************* Portfolio ******************* */
+
+.portfolio-wraper {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: var(--secondary-black);
+  text-align: center;
+  min-height: 100vh;
+  padding-top: 4rem;
 }
