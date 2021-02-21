@@ -8,7 +8,7 @@ const TimelineItem = ({ Experience }) => {
   }, []);
 
   return (
-    <div className="timeline-item">
+    <div className="timeline-item"  data-aos="zoom-in-up">
       <div className="timeline-item-content">
         <img
           className="timeline-item-image"
