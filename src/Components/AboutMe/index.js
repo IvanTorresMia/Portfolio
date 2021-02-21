@@ -4,7 +4,7 @@ import ProfilePic from "../../profile.jpg";
 
 const AboutMe = () => {
   return (
-    <div className="jumbotron about-me">
+    <div className="about-me">
       <div className="container">
         <div className="row">
           <div className="col">
