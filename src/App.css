@@ -274,7 +274,7 @@ nav ul li {
 }
 
 .timeline-item-content {
-  background-color: rgb(184,184,184);
+  background-color: rgb(184, 184, 184);
   border-radius: 0.3125rem;
   box-shadow: 0 0 0.3125rem rgb(54, 54, 54);
   display: flex;
@@ -283,13 +283,11 @@ nav ul li {
   padding: 1.2rem;
   text-align: right;
   position: relative;
-  /* border: 0.5rem solid rgb(52, 59, 64); */
-  /* border: 0.5rem solid rgb(184,184,184); */
 }
 
 .timeline-item-content::after {
   content: "";
-  background-color:rgb(184,184,184);
+  background-color: rgb(184, 184, 184);
   box-shadow: 0.0625rem -0.0625rem 0.0625rem rgb(54, 54, 54);
   position: absolute;
   transform: rotate(45deg);
@@ -354,7 +352,6 @@ nav ul li {
   right: 0.3125rem;
 }
 
-
 /* -------- Mobile Responsiveness -------- */
 @media only screen and (max-width: 767px) {
   .timeline-item-content,
@@ -374,7 +371,7 @@ nav ul li {
   }
 
   .timeline-item-content h3 {
-    margin-top: 2.1875rem;
+    /* margin-top: 2.1875rem; */
     font-size: 1.4rem;
   }
 
@@ -429,13 +426,13 @@ nav ul li {
     right: 2.2rem;
   }
   .timeline-item-content .circle {
-    right: -2.4rem;
+    right: -1.9rem;
     height: 1.25rem;
   }
 
   .timeline-item:nth-child(odd) .timeline-item-content .circle {
     right: auto;
-    left: -2.4rem;
+    left: -1.9rem;
   }
 }
 
@@ -444,6 +441,15 @@ nav ul li {
   .timeline-item {
     width: 53%;
   }
+
+  .timeline-item-content::after {
+    box-shadow: 0.0625rem -0.0625rem 0.0625rem rgb(184, 184, 184);
+  }
+
+  .timeline-item:nth-child(odd) .timeline-item-content::after {
+    box-shadow: 0.0625rem -0.0625rem 0.0625rem rgb(184, 184, 184);
+  }
+
   .timeline-item-content .timeline-item-image {
     top: -0.25rem;
     left: 1.6rem;
@@ -454,12 +460,20 @@ nav ul li {
   }
 
   .timeline-item-content .circle {
-    right: -1.8rem;
+    right: -1.3rem;
     height: 1.25rem;
+    background-color: rgb(184, 184, 184);
+    border: 0.1875rem solid rgb(184, 184, 184);
   }
 
   .timeline-item:nth-child(odd) .timeline-item-content .circle {
     right: auto;
-    left: -1.8rem;
+    left: -1.3rem;
+    background-color: rgb(184, 184, 184);
+    border: 0.1875rem solid rgb(184, 184, 184);
+  }
+
+  .timeline-container::after {
+    background-color: rgb(184, 184, 184);
   }
 }
