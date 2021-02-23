@@ -496,6 +496,9 @@ nav ul li {
 
 .card-container {
   color: var(--primary-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card-p {
