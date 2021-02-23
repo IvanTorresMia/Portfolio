@@ -508,3 +508,12 @@ nav ul li {
 .img-thumbnail {
   width: 2.125rem;
 }
+
+
+/* ******************* Contact me  ******************* */
+
+.contact-wraper {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: var(--primary-blue);
+}

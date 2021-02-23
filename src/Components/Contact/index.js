@@ -27,7 +27,8 @@ const ContactForm = () => {
   }
 
   return (
-    <form className="container contact-form" onSubmit={sendEmail} data-aos="fade-up">
+      <div className=" contact-wraper"> 
+    <form className="container" onSubmit={sendEmail} data-aos="fade-up">
       <input type="hidden" name="contact_number" />
       <div>
         <h1 className="display-4">Lets Connect!</h1>
@@ -79,10 +80,11 @@ const ContactForm = () => {
           rows="3"
         ></textarea>
       </div>
-      <button type="submit" value="send" className="btn text-light">
+      <button type="submit" value="send" className="btn bg-dark">
         Submit
       </button>
     </form>
+    </div>
   );
 }
 
