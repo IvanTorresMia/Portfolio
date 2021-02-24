@@ -8,7 +8,7 @@ const AboutMe = () => {
       <div className="container">
         <div className="row">
           <div className="col">
-            <h1>About Me</h1>
+            <h1 className="aboutMe-title">About Me</h1>
             <p className="lead">Let's change the world through Tech</p>
             <hr />
             <p className="about-me-text">

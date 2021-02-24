@@ -5,12 +5,14 @@ import Projects from "../../../utils/Projects.js";
 const Portfolio = () => {
   return (
     <div className="portfolio-wraper">
-        <h1>Portfolio</h1>
+      <h1 className="portfolio-title">Portfolio</h1>
+      <div className="container">
         <div className="row card-group card-wraper">
           {Projects.map((project, i) => (
             <PortfolioItem Projects={project} key={i} />
           ))}
         </div>
+      </div>
     </div>
   );
 };

@@ -5,7 +5,7 @@ import TimelineItem from '../TimelineItem'
 
 const Timeline = () => Experience.length > 0 && (
     <div className="timeline-wraper">
-        <h1>Experience</h1>
+        <h1 className="experience-title">Experience</h1>
         <div className="timeline-container">
         {Experience.map((data, i) => (
             <TimelineItem Experience={data} key={i}/>
