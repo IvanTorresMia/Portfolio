@@ -1,11 +1,16 @@
 import React from "react";
 import emailjs from "emailjs-com";
+import EmailPng from '../../Contact-Folder/email.png';
+import PhonePng from '../../Contact-Folder/phone.png';
+import InstaPng from '../../Contact-Folder/instagram.jpg';
+import FacebookPng from '../../Contact-Folder/facebook.jpg';
+import LinkedinPng from '../../Contact-Folder/linkedIn.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 AOS.init();
 const ContactForm = () => {
-  function sendEmail(e) {
+  const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
@@ -31,12 +36,12 @@ const ContactForm = () => {
     <form className="container" onSubmit={sendEmail} data-aos="fade-up">
       <input type="hidden" name="contact_number" />
       <div>
-        <h1 className="display-4">Lets Connect!</h1>
+        <h1 className="display-4 contact-title">Lets Connect!</h1>
         <div className="row">
           <div className="col">
             <img
               class="img-thumbnail m-2"
-              src="#"
+              src={EmailPng}
               alt="CV Icon"
             />
             <p className="lead">ivantorresmia27@gmail.com</p>
@@ -44,7 +49,7 @@ const ContactForm = () => {
           <div className="col">
             <img
               class="img-thumbnail m-2"
-              src="#"
+              src={PhonePng}
               alt="CV Icon"
             />
             <p className="lead">815-603-3297</p>
@@ -80,7 +85,7 @@ const ContactForm = () => {
           rows="3"
         ></textarea>
       </div>
-      <button type="submit" value="send" className="btn bg-dark">
+      <button type="submit" value="send" className="btn bg-light">
         Submit
       </button>
     </form>

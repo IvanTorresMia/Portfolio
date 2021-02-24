@@ -52,7 +52,7 @@ const Projects = [
     Deployed: "https://ivantorresmia.github.io/Employee-Directory-itorres/",
     img: Empoyee,
     discription:
-      "Employee Directory searches and updates search when you type in the input. Mainly Using React Js.",
+      "Employee Directory searches and updates search on change",
   },
 ];
 
