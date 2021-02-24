@@ -5,6 +5,7 @@
 - [Description](#Description)
 - [Deployed Link](#Deployed-Link)
 - [Technologies](#Technologies)
+- [Code](#Code)
 - [Gif](#Gif)
 - [Author](#Author)
 - [Credits](#Credits)
