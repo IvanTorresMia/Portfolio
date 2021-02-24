@@ -538,3 +538,24 @@ nav ul li {
 .contact-title {
   font-family: 'Russo One', sans-serif;
 }
+
+/* -------- Social Container -------- */
+
+.social-container {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.social-container h1{
+  font-family: 'Russo One', sans-serif;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.social-container img {
+  width: 4rem;
+}
+
+.social-container img:hover {
+  width: 5rem !important;
+}
