@@ -13,7 +13,7 @@ const Footer = () => {
           <h3>Made with React Js</h3>
             <p>Link to Github Repo</p>
           <a
-            href="https://github.com/IvanTorresMia"
+            href="https://github.com/IvanTorresMia/Portfolio"
             target="_blank"
             rel="noreferrer"
           >
