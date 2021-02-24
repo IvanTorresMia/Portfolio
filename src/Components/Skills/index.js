@@ -15,7 +15,7 @@ const Skills = () => {
   }, [])
 
   return (
-    <div className="Jumbotron skills-wraper">
+    <div className="Jumbotron skills-wraper" id="Skills">
       <div className="container skills-container">
         <h1 className="skills-title">Skills</h1>
         <div className="row row-cols-1 row-cols-md-3">

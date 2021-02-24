@@ -30,7 +30,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className=" contact-wraper">
+    <div className=" contact-wraper" id="Contact">
       <form className="container" onSubmit={sendEmail} data-aos="fade-up">
         <input type="hidden" name="contact_number" />
         <div>

@@ -4,7 +4,7 @@ import TimelineItem from '../TimelineItem'
 
 
 const Timeline = () => Experience.length > 0 && (
-    <div className="timeline-wraper">
+    <div className="timeline-wraper" id="Experience">
         <h1 className="experience-title">Experience</h1>
         <div className="timeline-container">
         {Experience.map((data, i) => (

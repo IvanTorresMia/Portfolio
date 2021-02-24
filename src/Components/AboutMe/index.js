@@ -1,10 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import ProfilePic from "../../profile.jpg";
 
 const AboutMe = () => {
   return (
-    <div className="about-me">
+    <div className="about-me" id="About-Me">
       <div className="container">
         <div className="row">
           <div className="col">
@@ -32,6 +31,7 @@ const AboutMe = () => {
               expirience fixing laptops and computers for friends and family.
             </p>
             <br />
+            
           </div>
           <div className="col imgCon">
             <img
