@@ -176,11 +176,14 @@ nav ul li {
   width: 4rem;
   transition: all 0.3s ease;
   position: relative;
+  height: 4.12rem !important;
 }
 
 .about-me a img:hover {
-  width: 5rem;
+  width: 4.8rem;
+  height: 4.6rem !important;
 }
+
 
 .aboutMe-title {
   font-family: 'Russo One', sans-serif;
@@ -194,6 +197,17 @@ nav ul li {
 @media (max-width: 768px) {
   .profile-picture {
     width: 20rem;
+  }
+  .about-me a img {
+    width: 2rem;
+    height: 2.2rem !important;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+  
+  .about-me a img:hover {
+    width: 2.3rem;
+    height: 2.5rem !important;
   }
 }
 
@@ -585,4 +599,14 @@ nav ul li {
 
 .react-footer h3 {
   font-size: 1.2rem !important;
+}
+
+.react-footer img {
+
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.react-footer img:hover {
+  width: 2rem;
 }

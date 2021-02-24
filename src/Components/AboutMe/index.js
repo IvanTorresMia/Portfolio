@@ -46,7 +46,7 @@ const AboutMe = () => {
               rel="noreferrer"
             >
               <img
-                class="img-thumbnail m-2"
+                class="img-thumbnail m-2 cv-logo"
                 src={CVLogo}
                 alt="CV Icon"
               />
