@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 
 /* Might Change some of these primary colors later */
 :root {
@@ -14,7 +16,7 @@
 }
 
 body {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Roboto Condensed", sans-serif !important;
   width: 100% !important;
   height: 100% !important;
   margin: 0px !important;
@@ -105,6 +107,7 @@ nav ul li {
 .main-info h1 {
   color: var(--primary-blue);
   text-transform: uppercase;
+  font-family: 'Russo One', sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -169,6 +172,10 @@ nav ul li {
   padding-bottom: 4rem;
 }
 
+.aboutMe-title {
+  font-family: 'Russo One', sans-serif;
+}
+
 .profile-picture {
   width: 30rem;
 }
@@ -225,6 +232,7 @@ nav ul li {
 .skills-title {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  font-family: 'Russo One', sans-serif;
 }
 
 .card-style {
@@ -244,6 +252,10 @@ nav ul li {
   font-family: "Roboto Condensed", sans-serif;
   min-height: 100vh;
   padding-top: 4rem;
+}
+
+.experience-title {
+  font-family: 'Russo One', sans-serif;
 }
 
 .timeline-container {
@@ -494,6 +506,10 @@ nav ul li {
   padding-bottom: 4rem;
 }
 
+.portfolio-title {
+  font-family: 'Russo One', sans-serif;
+}
+
 .card-container {
   color: var(--primary-white);
   display: flex;
@@ -515,5 +531,10 @@ nav ul li {
 .contact-wraper {
   padding-top: 4rem;
   padding-bottom: 4rem;
-  background-color: var(--primary-blue);
+  background-color:rgb(30, 97, 160);
+  text-align: center;
+}
+
+.contact-title {
+  font-family: 'Russo One', sans-serif;
 }
