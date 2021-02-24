@@ -12,7 +12,7 @@
 
 ## Description
 
-Hi welcome to my portfolio, This is currently being built and will be deployed as soon as it's a completed state.
+Hello! Welcome to my portfolio! Here you will find more about me and the work that I have done in the past enjoy!
 
 ## Deployed-Link
 
