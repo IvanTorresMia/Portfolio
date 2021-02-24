@@ -26,7 +26,7 @@ const FakeNav = () => {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
-            <li className="nav-item active">
+            {/* <li className="nav-item active">
               <a className="nav-link" href="#">
                 Home <span className="sr-only">(current)</span>
               </a>
@@ -55,7 +55,7 @@ const FakeNav = () => {
               <a className="nav-link" href="#">
                 Contact Me
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
