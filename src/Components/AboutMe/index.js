@@ -41,7 +41,7 @@ const AboutMe = () => {
               />
             </a>
             <a
-              href="https://docs.google.com/document/d/1MpKmhQKr5Xzc7NC5V6Si3RGbbVlSQLlvVrLEiBz-pKs/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1maNpkxa5KXVrUPQFLhxNPJLqK-fk-TtTDdIiw01sqrk/edit?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >

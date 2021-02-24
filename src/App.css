@@ -172,6 +172,16 @@ nav ul li {
   padding-bottom: 4rem;
 }
 
+.about-me a img {
+  width: 4rem;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.about-me a img:hover {
+  width: 5rem;
+}
+
 .aboutMe-title {
   font-family: 'Russo One', sans-serif;
 }
@@ -553,13 +563,13 @@ nav ul li {
 }
 
 .social-container img {
-  width: 4rem;
+  width: 3.5rem;
   transition: all 0.3s ease;
   position: relative;
 }
 
 .social-container img:hover {
-  width: 5rem;
+  width: 4rem;
 }
 
 /* ******************* Footer  ******************* */
