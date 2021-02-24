@@ -1,5 +1,7 @@
 import React from "react";
 import ProfilePic from "../../profile.jpg";
+import githubLogo from "../../skillLogos/githubLogo.png"
+import CVLogo from "../../Contact-Folder/cv.png"
 
 const AboutMe = () => {
   return (
@@ -31,7 +33,24 @@ const AboutMe = () => {
               expirience fixing laptops and computers for friends and family.
             </p>
             <br />
-            
+            <a href="https://github.com/IvanTorresMia" target="_blank" rel="noreferrer">
+              <img
+                className="img-thumbnail m-2"
+                src={githubLogo}
+                alt="GitHub Icon"
+              />
+            </a>
+            <a
+              href="https://docs.google.com/document/d/1MpKmhQKr5Xzc7NC5V6Si3RGbbVlSQLlvVrLEiBz-pKs/edit?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                class="img-thumbnail m-2"
+                src={CVLogo}
+                alt="CV Icon"
+              />
+            </a>
           </div>
           <div className="col imgCon">
             <img
