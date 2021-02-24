@@ -2,9 +2,6 @@ import React from "react";
 import emailjs from "emailjs-com";
 import EmailPng from '../../Contact-Folder/email.png';
 import PhonePng from '../../Contact-Folder/phone.png';
-import InstaPng from '../../Contact-Folder/instagram.jpg';
-import FacebookPng from '../../Contact-Folder/facebook.jpg';
-import LinkedinPng from '../../Contact-Folder/linkedIn.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
