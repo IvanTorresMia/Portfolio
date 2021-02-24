@@ -10,6 +10,7 @@ import Timeline from './Components/Experience/Timeline'
 import Portfolio from './Components/Portfolio/Portfolio-Con'
 import ContactForm from './Components/Contact'
 import Footer from './Components/Footer'
+import { Link, animateScroll as scroll } from 'react-scroll'
 
 function App() {
   return (
