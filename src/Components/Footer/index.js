@@ -11,7 +11,7 @@ const Footer = () => {
         </div>
         <div className="react-footer text-muted">
           <h3>Made with React Js</h3>
-            <p>Link to Github Repo</p>
+            <p>Link to Github Repo for portfolio</p>
           <a
             href="https://github.com/IvanTorresMia/Portfolio"
             target="_blank"
