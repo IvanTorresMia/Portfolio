@@ -554,8 +554,9 @@ nav ul li {
 
 .social-container img {
   width: 4rem;
+  transition: all 0.5s ease;
 }
 
 .social-container img:hover {
-  width: 5rem !important;
+  width: 5rem;
 }
