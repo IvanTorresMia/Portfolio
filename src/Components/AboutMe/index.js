@@ -1,7 +1,7 @@
 import React from "react";
 import ProfilePic from "../../profile.jpg";
-import githubLogo from "../../skillLogos/githubLogo.png"
-import CVLogo from "../../Contact-Folder/cv.png"
+import githubLogo from "../../skillLogos/githubLogo.png";
+import CVLogo from "../../Contact-Folder/cv.png";
 
 const AboutMe = () => {
   return (
@@ -13,27 +13,32 @@ const AboutMe = () => {
             <p className="lead">Let's change the world through Tech</p>
             <hr />
             <p className="about-me-text">
-              Recent Coding Bootcamp Graduate with a ceritficate from UC
-              Berkeley Full Stack program. I have develped multiple fullstack
-              applications from the ground up Using technologies like React Js,
-              jQuery, HTML, CSS, ES6 JavaScript, My Sql, Mongo DB, Axios, Ajax
-              and many more.
+              Hi there! My name is Ivan and I have been interested and excited
+              by the engineering industry for a long time. Since being a kid I
+              would take computers apart just to see what's inside, I have
+              always tinkered with different things like car engines, computers,
+              and now software, so far I am loving software!
               <br />
               <br />
-              As a new develper I am excited to dive into this industry and
-              ready to learn and make an inpact in any enviroment. I 3+ years of
-              exprirence in the Auto Mechanic Industry and took many online
-              courses prior to the bootcamp, like Code Academy, and Treehouse.
+              Now I am a recent Coding Bootcamp Graduate with a ceritficate from
+              UC Berkeley Full Stack program. I have developed multiple
+              fullstack applications from the ground up Using technologies like
+              React Js, jQuery, HTML, CSS, ES6 JavaScript, MySql, Mongo DB,
+              Axios, Ajax and many more.
             </p>
-            <p className="about-me-text">
-              Since being a kid I have been interested and excited by the
-              engineering industry. A fun fact is that I used to take apart some
-              computers around my house just to know what's inside and hopefully
-              find out how it all worked. I eventually got to get some
-              expirience fixing laptops and computers for friends and family.
+            <p>
+              As a new develper I am excited to dive into this industry and
+              ready to learn and make an inpact in any enviroment. With 3+ years
+              of exprirence in the Auto Mechanic Industry and experience with
+              many online courses like Code Academy, and Treehouse I am
+              confident and excited to be part of this industry
             </p>
             <br />
-            <a href="https://github.com/IvanTorresMia" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/IvanTorresMia"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 className="img-thumbnail m-2"
                 src={githubLogo}
