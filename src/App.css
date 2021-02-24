@@ -42,7 +42,7 @@ nav {
 }
 
 /* -------- Menu Links -------- */
-nav a.nav-link {
+nav Link.nav-link {
   letter-spacing: 0.0375rem;
   cursor: pointer;
 }
@@ -554,7 +554,8 @@ nav ul li {
 
 .social-container img {
   width: 4rem;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
+  position: relative;
 }
 
 .social-container img:hover {
