@@ -25,10 +25,16 @@ const useStyles = makeStyles({
 const PortfolioItem = ({ Projects }) => {
   const classes = useStyles();
 
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    window.open(`${Projects.Deployed}`, '_blank')
+  }
+
   return (
     <div className="col-sm-4 card-container">
       <Card className={classes.root}>
-        <CardActionArea>
+        <CardActionArea onClick={handleClick}>
           <CardMedia
             className={classes.media}
             image={Projects.img}
