@@ -29,13 +29,15 @@ nav {
   z-index: 2;
 }
 
-/* .navbar-style {
-  left: 0;
+.navbar-style {
+  /* left: 0;
   right: 0;
   position: fixed !important;
   padding: 2em;
-  top: 0%;
-} */
+  top: 0%; */
+  padding: 2em;
+}
+
 
 .myLogo {
   width: 7.25rem;
