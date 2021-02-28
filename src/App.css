@@ -41,6 +41,17 @@ nav {
   width: 7.25rem;
 }
 
+
+@media only screen and (max-width: 676px) {
+  .myLogo {
+    width: 5rem;
+    padding-top: 1rem;
+  }
+  .navbar-style {
+    padding: 0%;
+  }
+  }
+
 /* -------- Menu Links -------- */
 nav Link.nav-link {
   letter-spacing: 0.0375rem;
