@@ -14,6 +14,8 @@ const Skills = () => {
   
   }, [])
 
+  console.log(skills1)
+
   return (
     <div className="Jumbotron skills-wraper" id="Skills">
       <div className="container skills-container">
