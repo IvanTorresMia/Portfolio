@@ -36,7 +36,7 @@ function App() {
         }
       }}
       />
-      <FakeNav />
+      {/* <FakeNav /> */}
       <Navbar />
       <Header />
       <AboutMe />
