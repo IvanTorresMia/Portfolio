@@ -29,7 +29,7 @@ const AboutMe = () => {
             <p>
               As a new develper I am excited to dive into this industry and
               ready to learn and make an inpact in any enviroment. With 3+ years
-              of exprirence in the Auto Mechanic Industry and experience with
+              of experience in the Auto Mechanic Industry and experience with
               many online courses like Code Academy, and Treehouse I am
               confident and excited to be part of this industry
             </p>

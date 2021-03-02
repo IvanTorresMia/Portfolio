@@ -28,12 +28,12 @@ const Experience = [
     title: "High School Graduate",
     place: "Joliet Central High School",
     date: "2010-2014",
-    description: "Spent my highschool life exploring options, took A+ Certification, intro to Visual Basic Code, and other engineering classes.",
+    description: "Spent my High School life exploring options, took A+ Certification, intro to Visual Basic Code, and other engineering classes.",
     logo: logo
   },
   {
     title: "Computer Repair",
-    place: "Hobbie",
+    place: "Hobby",
     date: "2010-2014",
     description: "On my spare time I liked fixing Machintosh Computers",
     logo: logo
