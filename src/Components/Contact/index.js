@@ -30,56 +30,58 @@ const ContactForm = () => {
   };
 
   return (
-    <div className=" contact-wraper" id="Contact">
-      <form className="container" onSubmit={sendEmail} data-aos="fade-up">
-        <input type="hidden" name="contact_number" />
-        <div>
-          <h1 className="display-4 contact-title">Lets Connect!</h1>
-          <div className="row">
-            <div className="col">
-              <img class="img-thumbnail m-2" src={EmailPng} alt="CV Icon" />
-              <p className="lead">ivantorresmia27@gmail.com</p>
-            </div>
-            <div className="col">
-              <img class="img-thumbnail m-2" src={PhonePng} alt="CV Icon" />
-              <p className="lead">815-603-3297</p>
+    <div className="contact-wraper" id="Contact">
+      <div className="container">
+        <form className="container" onSubmit={sendEmail} data-aos="fade-up">
+          <input type="hidden" name="contact_number" />
+          <div>
+            <h1 className="display-4 contact-title">Lets Connect!</h1>
+            <div className="row">
+              <div className="col">
+                <img class="img-thumbnail m-2" src={EmailPng} alt="CV Icon" />
+                <p className="lead">ivantorresmia27@gmail.com</p>
+              </div>
+              <div className="col">
+                <img class="img-thumbnail m-2" src={PhonePng} alt="CV Icon" />
+                <p className="lead">815-603-3297</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="row form-group">
-          <label for="exampleInputEmail1">Name</label>
-          <input
-            name="name"
-            type="text"
-            class="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-          />
-        </div>
-        <div className="row form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input
-            name="email"
-            type="email"
-            class="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-          />
-        </div>
-        <div className="row form-group">
-          <label for="exampleFormControlTextarea1">Message</label>
-          <textarea
-            name="message"
-            class="form-control"
-            id="exampleFormControlTextarea1"
-            rows="3"
-          ></textarea>
-        </div>
-        <button type="submit" value="send" className="btn bg-light">
-          Submit
-        </button>
-      </form>
-      <SocialCards />
+          <div className="row form-group">
+            <label for="exampleInputEmail1">Name</label>
+            <input
+              name="name"
+              type="text"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div className="row form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input
+              name="email"
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+          </div>
+          <div className="row form-group">
+            <label for="exampleFormControlTextarea1">Message</label>
+            <textarea
+              name="message"
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </div>
+          <button type="submit" value="send" className="btn bg-light">
+            Submit
+          </button>
+        </form>
+        <SocialCards />
+      </div>
     </div>
   );
 };
