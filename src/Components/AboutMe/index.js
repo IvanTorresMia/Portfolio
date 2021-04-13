@@ -13,22 +13,22 @@ const AboutMe = () => {
             <p className="lead">Let's change the world through Tech</p>
             <hr />
             <p className="about-me-text">
-              Hi there! My name is Ivan and I have been interested and excited
-              by the engineering industry for a long time. Since being a kid I
-              would take computers apart just to see what's inside, I have
-              always tinkered with different things like car engines, computers,
-              and now software, so far I am loving software!
+              Hi there! My name is Ivan, I am a Coding Bootcamp Graduate with a
+              certificate from UC Berkeley Full Stack program. I have developed
+              multiple Full Stack applications from the ground up Using
+              technologies like React Js, jQuery, HTML, CSS, ES6 JavaScript,
+              MySql, Mongo DB, Axios, Ajax and many more.
               <br />
               <br />
-              Now I am a recent Coding Bootcamp Graduate with a ceritficate from
-              UC Berkeley Full Stack program. I have developed multiple
-              fullstack applications from the ground up Using technologies like
-              React Js, jQuery, HTML, CSS, ES6 JavaScript, MySql, Mongo DB,
-              Axios, Ajax and many more.
+              I have been interested and excited by the engineering
+              industry for a long time. Since being a kid I would take computers
+              apart just to see what's inside, I have always tinkered with
+              different things like car engines, computers, and now software, so
+              far I am loving software!
             </p>
             <p>
-              As a new develper I am excited to dive into this industry and
-              ready to learn and make an inpact in any enviroment. With 3+ years
+              As a new developer I am excited to dive into this industry and
+              ready to learn and make an impact in any environment. With 3+ years
               of experience in the Auto Mechanic Industry and experience with
               many online courses like Code Academy, and Treehouse I am
               confident and excited to be part of this industry
