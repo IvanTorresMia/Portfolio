@@ -36,7 +36,7 @@ const ContactForm = () => {
           <input type="hidden" name="contact_number" />
           <div>
             <h1 className="display-4 contact-title">Lets Connect!</h1>
-            <div className="row">
+            <div className="row contact-info">
               <div className="col">
                 <img class="img-thumbnail m-2" src={EmailPng} alt="CV Icon" />
                 <p className="lead">ivantorresmia27@gmail.com</p>

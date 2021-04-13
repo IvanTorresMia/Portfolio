@@ -7,7 +7,7 @@ import githubPng from "../../../Contact-Folder/github.jpg";
 const SocialCards = () => {
   return (
     <div className="container social-container">
-        <h1>I am Social</h1>
+      <h1>I am Social</h1>
       <div className="row">
         <div className="col" id="card" data-aos="flip-left">
           <a
@@ -33,15 +33,6 @@ const SocialCards = () => {
               src={LinkedinPng}
               alt="LinkedIn Icon"
             />
-          </a>
-        </div>
-        <div className="col" id="card" data-aos="flip-right">
-          <a
-            href="https://www.facebook.com/ivan.torres.980"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img class="img-thumbnail m-2" src={FacebookPng} alt="CV Icon" />
           </a>
         </div>
         <div className="col" id="card" data-aos="flip-right">
