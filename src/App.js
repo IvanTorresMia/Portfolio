@@ -1,4 +1,5 @@
 import "./App.css";
+import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Particles from "react-particles-js";
 import Navbar from "./Components/Navbar";
@@ -13,7 +14,7 @@ import Footer from './Components/Footer'
 
 function App() {
   return (
-    <>
+    <div>
       <Particles
       className="particles-canvas"
       params={{
@@ -44,7 +45,7 @@ function App() {
       <Portfolio />
       <ContactForm />
       <Footer />
-    </>
+    </div>
   );
 }
 
